@@ -1,0 +1,93 @@
+@import "../../styles/variables";
+
+.ProfessionalExperienceContainer {
+  margin-top: 90px;
+  width: 100%;
+  max-width: $content-page-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 70px;
+  box-sizing: border-box;
+}
+
+.ProfessionalExperienceColorBar {
+  width: 100%;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    font-family: $font-family;
+    font-weight: $bold-font-weight;
+    color: $bold-black;
+    font-size: 24px;
+  }
+}
+
+.ProfessionalExperienceContent {
+
+}
+
+.ProfessionalExperiencePosition {
+  display: flex;
+  flex-direction: row;
+}
+
+.ProfessionalExperienceHeader {
+  width: 350px;
+  padding-top: 30px;
+  font-family: $font-family;
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: $bold-font-weight;
+    color: $bold-black;
+    margin: 0 0 15px;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-weight: $light-font-weight;
+    color: $body-grey;
+    margin: 5px 0 0;
+  }
+}
+
+.ProfessionalExperienceDetailBlock {
+  background-color: $block-grey;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.ProfessionalExperienceDetailHeader {
+  margin: 0;
+  font-family: $font-family;
+  font-size: 16px;
+  font-weight: $bold-font-weight;
+  color: $bold-black;
+}
+
+.ProfessionalExperienceTechnologies {
+  display: flex;
+  margin: 0;
+  padding: 15px 0;
+
+  li {
+    font-family: $font-family;
+    color: $background-white;
+    list-style-type: none;
+    display: inline-block;
+    background-color: $primary-red;
+    padding: 7px 10px;
+    margin: 0 5px;
+  }
+}
+
+.ProfessionalExperienceDetailBody {
+  font-family: $font-family;
+  color: $bold-black;
+  font-weight: $light-font-weight;
+  font-size: 14px;
+}

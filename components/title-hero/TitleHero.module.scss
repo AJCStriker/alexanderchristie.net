@@ -1,0 +1,78 @@
+@import "../../styles/variables";
+
+.TitleHeroContainer {
+  height: 500px; // Fallback for calc
+  height: calc(100% - 378px);
+  width: 100%;
+  max-width: $widescreen-page-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 200px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.TitleHero {
+  font-family: $font-family;
+  color: $bold-black;
+  font-weight: $bold-font-weight;
+  font-size: 48px;
+  max-width: 900px;
+}
+
+.ScrollPrompt {
+  margin-left: 30px;
+  padding-left: 25px;
+  height: 100px;
+  box-sizing: border-box;
+
+  margin-top: 210px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.ScrollPromptText {
+  display: block;
+
+  font-family: $font-family;
+  color: $body-grey;
+  font-weight: $normal-font-weight;
+  font-size: 12px;
+  text-transform: uppercase;
+
+  padding-top: 15px;
+
+}
+
+.ScrollPromptChaserContainer {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 100px;
+  background-color: $body-grey;
+  left: -1px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.ScrollPromptChaser {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  background-color: $bold-black;
+  left: 0px;
+  top: -40px;
+
+  animation-name: ScrollChaseAnimation;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ScrollChaseAnimation {
+  from { top: -40px }
+  to { top: 140px }
+}

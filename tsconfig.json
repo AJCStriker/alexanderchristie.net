@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "esnext",
+    /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
+    "module": "esnext",
+    /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "sourceMap": true,
+    /* Generates corresponding '.map' file. */
+
+    "removeComments": false,
+    /* Do not emit comments to output. */
+    "allowJs": false,
+    "jsx": "react",
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    /* Strict Type-Checking Options */
+    "strict": true,
+    /* Enable all strict type-checking options. */
+    "strictFunctionTypes": false,
+    /* Disable the new bidirectional covariance check in TS 2.6 */
+    "noImplicitThis": true,
+    /* Raise error on 'this' expressions with an implied 'any' type. */
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    /* Parse in strict mode and emit "use strict" for each source file. */
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    /* Specify module resolution strategy: 'node' (Node.js) or 'classic ' (TypeScript pre-1.6). */
+    "allowSyntheticDefaultImports": true,
+    /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "strictPropertyInitialization": false,
+    /* Disable for now due to the way the backend controllers operate. */
+
+    /* Enabled Decorators */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "declarationMap": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  },
+  "include": [
+    "components/**/*",
+    "pages/**/*",
+    "types/**/*"
+  ]
+}

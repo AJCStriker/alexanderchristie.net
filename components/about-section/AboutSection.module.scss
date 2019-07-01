@@ -1,0 +1,76 @@
+@import "../../styles/variables";
+
+.AboutSectionContainer {
+  width: 100%;
+  max-width: $content-page-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 70px;
+  box-sizing: border-box;
+}
+
+.AboutSectionHeader {
+  display: inline-flex;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 80px;
+  justify-content: center;
+}
+
+.AboutSection {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: $primary-red;
+}
+
+.AboutSectionColorBar {
+  background-color: $primary-red;
+  height: 75px;
+  width: 600px;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  h2 {
+    font-family: $font-family;
+    font-weight: $bold-font-weight;
+    color: $background-white;
+    opacity: 0.93;
+    font-size: 24px;
+  }
+}
+
+.AboutSectionProfileImage {
+  width: 100%;
+}
+
+.AboutSectionContent {
+  width: 50%;
+  display: inline-block;
+  padding: 80px;
+
+  p {
+    font-family: $font-family;
+    color: $background-white;
+    font-weight: $normal-font-weight;
+    opacity: 0.93;
+    font-size: 16px;
+  }
+}
+
+.AboutSocialLinks {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+
+  a {
+    color: $background-white;
+    font-size: 38px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
